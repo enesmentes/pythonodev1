@@ -13,13 +13,11 @@ def flatten (b):
     
   #  pythonodev2
   
-  l = [[1, 2], [3, 4], [5, 6, 7]]
-flatten_list = []
-def flatten (b):
+ l = [[1, 2], [3, 4], [5, 6, 7]]
+list = []
+def (b):
     for sublist in b:
         if type(sublist) == list
-            flatten(sublist[-1])
-        else:
-            flatten_list.append(sublist[-1])
-        return flatten_list
-    print(flatten(l[-1]))
+            sublist[-1:]
+        return list
+    print(l[-1:])
